@@ -25,7 +25,7 @@ android {
     compileSdkVersion 31
 
     if (project.android.hasProperty("namespace")) {
-        namespace = " com.mintech.pinned_shortcut.flutter_pinned_shortcut"
+        namespace = "com.mintech.pinned_shortcut.flutter_pinned_shortcut"
     }
     
     compileOptions {
